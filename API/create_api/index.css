@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-image: -webkit-radial-gradient(50% 150%, #787b7d 5%, #4b5052 100%);
+  background-image: radial-gradient(50% 150%, #787b7d 5%, #4b5052 55%); */
+  background-image: url("https://image.news.livedoor.com/newsimage/stf/d/e/de14e_242_c7345202fae0ca38c173991bd2ef025f.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: 15%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(167, 154, 8);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.temple-list {
+  list-style: none;
+  padding: 0;
+}
+
+.temple-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.temple-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.temple-location {
+  color: aliceblue;
+}

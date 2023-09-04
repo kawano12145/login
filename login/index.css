@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+body {
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  max-width: 360px;
+  padding: 40px;
+  background-color: #f2f2f2;
+  margin: auto;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.form input[type="submit"] {
+  margin-top: 10px;
+  margin-left: 80%;
+}
+
+.timezone {
+  color: #5555;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.button-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button-container form {
+  margin: 0 30px;
+}
+
+.required-label {
+  color: red;
+  opacity: 0.5;
+
+  padding-left: 1%;

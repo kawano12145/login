@@ -1,0 +1,20 @@
+.button-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button-container form {
+  margin: 0 30px;
+}
+
+.message {
+  padding: 50px;
+  color: green;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 20%;
+  text-align: center;
+}
